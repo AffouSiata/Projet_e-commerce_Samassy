@@ -1,0 +1,30 @@
+https://esdcodes.com/fr/ sert toi de site et faire pour moi , je veux en site web pas en mobile. sert toi des produits qui se trouve sur le site , voici le logo que je t'ai envoyer et sert toi des couleurs du logo pour le site web , je veux concurencier mes concurents donc je veux un joli sites . avec des images pour les illustrations . design moi tout les pages
+
+
+Si les commandes ne sont pas sauvegardées en base de données (seulement WhatsApp), comment voulez-vous gérer la page 'Historique 
+des commandes' dans le compte utilisateur?
+
+❯ 1. Afficher un message 'Commandes via WhatsApp uniquement'
+     Expliquer que l'historique n'est pas disponible car tout passe par WhatsApp
+  2. Garder les données mock pour la démo
+     Continuer à afficher les commandes factices pour montrer l'interface
+  3. Supprimer complètement cette page
+     Retirer la page de l'historique des commandes du menu compte
+  4. Type something.
+
+
+Comment voulez-vous gérer la page 'Mes Licences' si les commandes ne sont pas en base de données?
+
+❯ 1. Afficher un message 'Licences envoyées par WhatsApp'
+     Expliquer que les licences sont fournies directement via WhatsApp
+  2. Garder les données mock pour la démo
+     Continuer à afficher des licences factices pour montrer l'interface
+  3. Supprimer cette page du compte
+     Retirer complètement la gestion des licences
+  4. Type something.
+
+
+
+
+ Email: superadmin@admin.com
+    - Mot de passe: admin123!

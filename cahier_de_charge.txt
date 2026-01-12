@@ -1,0 +1,112 @@
+OBJECTIF : Créer un site e-commerce complet moderne, élégant, doux et professionnel pour la vente de licences et clés de logiciels (sans paiement en ligne) avec Next.js et Tailwind CSS. Le site doit être fully responsive (mobile, tablette, desktop) et accessible.
+
+STRUCTURE DU SITE ET PAGES :
+
+1. Page d’accueil
+- TopBar : texte accroche à gauche + sélecteur langue et monnaie à droite
+- Header : logo, barre de recherche, icônes utilisateur, panier
+- BottomBar : menu navigation (Accueil, Boutique, Pages)
+- HeroSlider : 6 slides avec images, texte, CTA
+- Section Catégories : grille 6–8 cartes
+- Section PourquoiNousChoisir : 4–6 avantages
+- Section ProduitsPopulaires : grille responsive
+- Section MeilleuresVentes : slider carousel
+- Section Témoignages : carousel 1–3 slides visibles
+- Footer : logo, liens utiles, contact, réseaux sociaux, newsletter, mentions légales
+
+2. Page Boutique
+- Liste de produits filtrable et triable par catégorie, prix, popularité
+- Barre de recherche interne
+- Grille responsive produits (image, nom, prix, badge promo, bouton CTA)
+- Pagination ou infinite scroll
+- Sidebar / filtres : catégories, sous-catégories, tags
+- Composants : <ProductCard />, <FilterSidebar />, <SortMenu />
+
+3. Page Fiche Produit
+- Image(s) produit zoomable
+- Nom, description complète, prix, disponibilité
+- Bouton “Ajouter au panier / Commander”
+- Informations supplémentaires : compatibilité, version, détails techniques
+- Avis clients (optionnel)
+- Composant : <ProductDetail />
+
+4. Panier
+- Liste des produits ajoutés
+- Quantité modifiable
+- Résumé prix total
+- Bouton “Passer commande” qui mène au formulaire de commande
+- Composant : <Cart />
+
+5. Page Commande / Formulaire
+- Formulaire client : nom, prénom, email, WhatsApp
+- Récapitulatif produits commandés
+- Bouton “Valider la commande” : envoi email automatique et notification WhatsApp
+- Confirmation visuelle après envoi
+- Composant : <CheckoutForm />
+
+6. Page Contact
+- Formulaire contact : nom, email, message
+- Infos contact : WhatsApp, email support, horaires
+- Carte Google Maps ou illustration
+- Composant : <ContactForm />
+
+7. Page À propos
+- Présentation entreprise / site
+- Valeurs, mission, vision
+- Section équipe (photo + nom + rôle)
+- Style moderne, cartes, sections espacées
+- Composant : <AboutUs />
+
+8. Page FAQ
+- Liste questions/réponses regroupées par thème
+- Accordion responsive
+- Option recherche interne FAQ
+- Composant : <FAQAccordion />
+
+9. Compte Client (optionnel)
+- Connexion / inscription
+- Historique commandes
+- Modification infos personnelles
+- Composant : <UserAccount />, <LoginForm />, <RegisterForm />
+
+STYLE GLOBAL
+- Palette douce : blanc, gris clair, accents bleu/indigo
+- Typographie moderne, lisible, hiérarchie H1/H2/H3
+- Cartes arrondies, shadow soft, hover smooth
+- Animations : fade-up, hover, transitions
+- Responsive mobile → desktop
+- Accessibilité : aria-labels, alt images, focus visible, contrastes WCAG AA
+- Sticky header, lazy-load images
+
+ANIMATIONS / INTERACTIONS
+- Sliders autoplay et navigation clavier
+- MegaMenu boutique : ouverture hover desktop / click mobile
+- Cartes produits : hover légère élévation
+- Formulaires : validation client-side et feedback instantané
+- Panier : update dynamique, responsive
+- Notifications : email + WhatsApp à la validation de commande
+
+LIVRABLES
+- Composants Next.js réutilisables pour chaque section et page
+- Layouts globaux : <MainLayout />, <Header />, <Footer />
+- Pages complètes : /, /boutique, /produit/[id], /panier, /commande, /contact, /a-propos, /faq, /compte
+- Styles Tailwind intégrés
+- Contenus textuels et images mockups
+- Responsivité et accessibilité validées
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
